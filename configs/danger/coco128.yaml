@@ -1,0 +1,41 @@
+# YOLOv5 🚀 by Ultralytics https://ultralytics.com, licensed under GNU GPL v3.0
+# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017)
+# Example usage: python train.py --data coco128.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco128  ← downloads here
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#path:  # dataset root dir
+#train: /media/westwell/60F64F35F64F0B2C/datasets/yolov5_datasets/data_0523/images/train/   # train images (relative to 'path') 128 images
+#val: /media/westwell/60F64F35F64F0B2C/datasets/yolov5_datasets/data_0523/images/val/   # val images (relative to 'path') 128 images
+#test:  # test images (optional)
+train: ../dataset/images/train/   # train images (relative to 'path') 128 images
+val: ../dataset/images/val/
+
+# Classes
+#nc: 1  # number of classes
+#names:  ['plate']
+#nc: 7  # number of classes
+#names: ["wordh", "numhl", "numhs", "wordv", "numvl", "numvs", "numhsq"]
+
+#nc: 19  # number of classes
+#names:  ['sign_danger',     'sign_danger_23',  'sign_danger_26',   'sign_danger_ao',
+#         'sign_danger_bzp4','sign_danger_fsx', 'sign_danger_gyh1', 'sign_danger_gyh2',
+#        'sign_danger_qt3', 'sign_danger_qt4', 'sign_danger_yd',   'sign_danger_yh',
+#        'sign_danger_yr1', 'sign_danger_yr2', 'sign_danger_yr3',  'sign_danger_yr4',
+#        'sign_danger_yt1', 'sign_danger_yt2', 'sign_danger_zl']
+nc: 22
+names: ['sign_danger',     'sign_danger_23',  'sign_danger_26',  'sign_danger_ao',
+        'sign_danger_bzp4','sign_danger_fsx', 'sign_danger_gyh1','sign_danger_gyh2',
+        'sign_danger_qt1', 'sign_danger_qt2', 'sign_danger_qt3', 'sign_danger_qt4',
+        'sign_danger_qt5', 'sign_danger_yd',  'sign_danger_yh',  'sign_danger_yr1',
+        'sign_danger_yr2', 'sign_danger_yr3', 'sign_danger_yr4', 'sign_danger_yt1',
+        'sign_danger_yt2', 'sign_danger_zl']
+
+
+
+# Download script/URL (optional)
+#download: https://github.com/ultralytics/yolov5/releases/download/v1.0/coco128.zip

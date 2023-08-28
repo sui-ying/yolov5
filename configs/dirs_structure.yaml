@@ -1,0 +1,54 @@
+{
+  "configs": {
+    "container": {
+      "roi": ["coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml"],
+      "letter": ["coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml"],
+      "digit": ["coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml"],
+      "type": ["coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml"],
+      "container3": ["coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml"]
+    },
+
+    "plate": {
+      "cn": {
+        "frontback": {
+          "roi": [ "coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml" ],
+          "recog": [ "coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml" ]
+        },
+        "lorry": {
+          "roi": [ "coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml" ],
+          "recog": [ "coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml" ]
+        }
+      },
+
+      "Thailand":{
+        "roi": ["coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml"],
+        "recog": ["coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml"]
+      }
+    },
+
+    "weight_limit": ["coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml"],
+    "seal": ["coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml"],
+    "danger": ["coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml"],
+    "control": ["coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml"],
+    "direction": ["coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml"],
+
+    "yancan": {
+      "xinhaida": {
+        "frontback": [ "coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml" ],
+        "side": [ "coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml" ],
+        "top": [ "coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml" ]
+      },
+
+      "nansha": {
+        "frontback": [ "coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml" ],
+        "side": [ "coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml" ],
+        "top": [ "coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml" ],
+        "aerial": [ "coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml" ]
+      },
+      "antong": {
+        "frontback": [ "coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml" ],
+        "side": [ "coco128.yaml", "hyp.scratch.yaml", "yolov5s.yaml" ]
+      }
+    }
+  }
+}
